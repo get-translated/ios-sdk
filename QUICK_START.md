@@ -6,7 +6,7 @@ Get up and running with the GetTranslated iOS SDK in under 5 minutes! 🚀
 
 - iOS 13.0+
 - Swift 5.7+
-- A GetTranslated account and API key
+- A [GetTranslated account](https://www.gettranslated.ai/signup/) and [API key](https://www.gettranslated.ai/home/)
 
 ## Step 1: Installation
 
@@ -48,7 +48,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-**Important:** Get your API key from your project settings.
+**Important:** Get your API key from your [dashboard](https://www.gettranslated.ai/home/). Don't have an account? [Sign up for free](https://www.gettranslated.ai/signup/).
 
 ### Initialize with Callback (Recommended)
 

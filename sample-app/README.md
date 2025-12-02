@@ -50,17 +50,17 @@ Set the `GETTRANSLATED_API_KEY` environment variable before running the app:
 export GETTRANSLATED_API_KEY="your-api-key-here"
 ```
 
-**Important:** Get your API key from your project settings.
+**Important:** Get your API key from your [dashboard](https://www.gettranslated.ai/home/). Don't have an account? [Sign up for free](https://www.gettranslated.ai/signup/).
 
 ### 2. Add SDK Dependency
 
-The sample app needs to reference the GetTranslated SDK. You can do this in one of two ways:
+The sample app references the GetTranslated SDK from GitHub. The package dependency is already configured in the Xcode project.
 
-#### Option A: Local Package (Recommended for Development)
+If you need to update or re-add the dependency:
 
 1. In Xcode, go to **File → Add Packages...**
-2. Click **Add Local...**
-3. Navigate to `sdk/ios/GetTranslatedSDK` and select it
+2. Enter the repository URL: `https://github.com/get-translated/ios-sdk.git`
+3. Select version: `1.0.0` or `Up to Next Major Version`
 4. Add to your target
 
 ## Building and Running
@@ -135,7 +135,7 @@ xcodebuild -project GetTranslatedSample.xcodeproj \
 
 **Error:** "API key not configured"
 
-**Solution:** Make sure you've set the `GetTranslatedAPIKey` in Info.plist or the `GETTRANSLATED_API_KEY` environment variable.
+**Solution:** Make sure you've set the `GetTranslatedAPIKey` in Info.plist or the `GETTRANSLATED_API_KEY` environment variable. Get your API key from your [dashboard](https://www.gettranslated.ai/home/).
 
 ### Translation Returns Original Text
 
@@ -158,7 +158,7 @@ xcodebuild -project GetTranslatedSample.xcodeproj \
 
 **Solution:** 
 - Check your internet connection
-- Verify the API key is correct
+- Verify the API key is correct in your [dashboard](https://www.gettranslated.ai/home/)
 - Check the server URL in the SDK configuration
 
 ## Project Structure
@@ -181,5 +181,7 @@ GetTranslatedSample/
 
 ## Support
 
-- Documentation: https://www.gettranslated.ai/docs
+- [Documentation](https://www.gettranslated.ai/docs/) - Complete API reference and guides
+- [Dashboard](https://www.gettranslated.ai/home/) - Manage your projects and API keys
+- [Feedback & Support](https://www.gettranslated.ai/account/feedback) - Get help and contact support
 

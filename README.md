@@ -27,17 +27,18 @@ Get up and running in under 5 minutes with our [Quick Start Guide](QUICK_START.m
 
 ### Swift Package Manager (Recommended)
 
-Add the SDK as a local package dependency:
+Add the SDK via Xcode:
 
 1. In Xcode, go to **File → Add Packages...**
-2. Click **Add Local...** and navigate to the SDK directory
-3. Add to your target
+2. Enter the repository URL: `https://github.com/get-translated/ios-sdk.git`
+3. Select version: `1.0.0` or `Up to Next Major Version`
+4. Add to your target
 
 Or add to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(path: "../GetTranslatedSDK")
+    .package(url: "https://github.com/get-translated/ios-sdk.git", from: "1.0.0")
 ]
 ```
 
@@ -141,7 +142,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, InitCallback {
 
 ## 🔑 Getting Your API Key
 
-Get your API key from your project settings.
+Get your API key from your [dashboard](https://www.gettranslated.ai/home/). Don't have an account? [Sign up for free](https://www.gettranslated.ai/signup/).
 
 ## 📋 Requirements
 
@@ -151,7 +152,9 @@ Get your API key from your project settings.
 
 ## 🤝 Support
 
-- Documentation: https://www.gettranslated.ai/docs
+- [Documentation](https://www.gettranslated.ai/docs/) - Complete API reference and guides
+- [Dashboard](https://www.gettranslated.ai/home/) - Manage your projects and API keys
+- [Feedback & Support](https://www.gettranslated.ai/account/feedback) - Get help and contact support
 
 ## 📄 License
 

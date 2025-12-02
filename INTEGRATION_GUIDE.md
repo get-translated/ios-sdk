@@ -454,10 +454,10 @@ GetTranslated.setLanguage(userLanguage)
 ### Initialization Errors
 
 **Error Code 401:** Unauthorized - invalid API key
-- **Solution:** Verify your API key is correct in your project settings
+- **Solution:** Verify your API key is correct in your [dashboard](https://www.gettranslated.ai/home/)
 
 **Error Code 403:** Permission denied
-- **Solution:** Check that your API key has the required permissions for the project
+- **Solution:** Check that your API key has the required permissions for the project in your [dashboard](https://www.gettranslated.ai/home/)
 
 **Error Code 0:** Network error
 - **Solution:** Check your internet connection and verify the server URL is accessible
@@ -506,6 +506,8 @@ See [Sample App README](../sample-app/README.md) for setup instructions.
 
 ## Support
 
-- Documentation: https://www.gettranslated.ai/docs
+- [Documentation](https://www.gettranslated.ai/docs/) - Complete API reference and guides
+- [Dashboard](https://www.gettranslated.ai/home/) - Manage your projects and API keys
+- [Feedback & Support](https://www.gettranslated.ai/account/feedback) - Get help and contact support
 - Sample App: [Sample App Guide](../sample-app/README.md)
 

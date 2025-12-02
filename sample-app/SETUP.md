@@ -44,21 +44,23 @@ This guide will help you set up the GetTranslated iOS sample app in Xcode.
 
 ## Step 4: Add GetTranslated SDK
 
-### Option A: Local Package (Recommended)
+The sample app is already configured to use the GetTranslated SDK from GitHub. The package dependency is set up in the Xcode project.
+
+If you need to update or re-add the dependency:
 
 1. In Xcode, go to **File → Add Packages...**
-2. Click **Add Local...**
-3. Navigate to `sdk/ios/GetTranslatedSDK`
-4. Click **Add Package**
-5. In the package products, select **GetTranslatedSDK**
-6. Add it to your **GetTranslatedSample** target
-7. Click **Add Package**
+2. Enter the repository URL: `https://github.com/get-translated/ios-sdk.git`
+3. Select version: `1.0.0` or `Up to Next Major Version`
+4. In the package products, select **GetTranslatedSDK**
+5. Add it to your **GetTranslatedSample** target
+6. Click **Add Package**
 
 ## Step 5: Configure API Key
 
-1. In Xcode, select `Info.plist` in the project navigator
-2. Find the `GetTranslatedAPIKey` key
-3. Replace `YOUR_API_KEY_HERE` with your actual API key
+1. Get your API key from your [dashboard](https://www.gettranslated.ai/home/). Don't have an account? [Sign up for free](https://www.gettranslated.ai/signup/).
+2. In Xcode, select `Info.plist` in the project navigator
+3. Find the `GetTranslatedAPIKey` key
+4. Replace `YOUR_API_KEY_HERE` with your actual API key
 
 Alternatively, you can set it as an environment variable:
 1. In Xcode, go to **Product → Scheme → Edit Scheme...**
@@ -93,6 +95,7 @@ Alternatively, you can set it as an environment variable:
 
 - Make sure you've set the API key in Info.plist or as an environment variable
 - Check that the key name matches exactly: `GetTranslatedAPIKey`
+- Get your API key from your [dashboard](https://www.gettranslated.ai/home/)
 
 ### Build Errors
 

@@ -98,14 +98,14 @@ let package = Package(
 Users can now add your package in Xcode:
 
 1. **File → Add Packages...**
-2. Enter your repository URL: `https://github.com/your-org/your-repo.git`
+2. Enter your repository URL: `https://github.com/get-translated/ios-sdk.git`
 3. Select the version/tag
 4. Click **Add Package**
 
 Or add to `Package.swift`:
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-org/your-repo.git", from: "1.0.0")
+    .package(url: "https://github.com/get-translated/ios-sdk.git", from: "1.0.0")
 ]
 ```
 
@@ -135,15 +135,15 @@ Pod::Spec.new do |spec|
     providing real-time, AI-powered translations for iOS applications.
   DESC
   
-  spec.homepage     = "https://github.com/your-org/your-repo"
+  spec.homepage     = "https://github.com/get-translated/ios-sdk"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "Your Name" => "your-email@example.com" }
+  spec.author       = { "GetTranslated" => "support@gettranslated.ai" }
   
   spec.platform     = :ios, "13.0"
   spec.swift_version = "5.7"
   
   spec.source       = { 
-    :git => "https://github.com/your-org/your-repo.git",
+    :git => "https://github.com/get-translated/ios-sdk.git",
     :tag => "#{spec.version}"
   }
   
@@ -268,7 +268,7 @@ swift test
 
 1. Create a test Xcode project
 2. **File → Add Packages...**
-3. Enter: `https://github.com/your-org/your-repo.git`
+3. Enter: `https://github.com/get-translated/ios-sdk.git`
 4. Select version: `1.0.0`
 5. Add to target
 6. Verify it compiles and works

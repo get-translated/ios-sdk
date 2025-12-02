@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
     - Robust error handling
   DESC
   
-  spec.homepage     = "https://github.com/silicon-monkey-labs/lingo-sdk"
+  spec.homepage     = "https://github.com/get-translated/ios-sdk"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "GetTranslated" => "support@gettranslated.ai" }
   
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.7"
   
   spec.source       = { 
-    :git => "https://github.com/silicon-monkey-labs/lingo-sdk.git",
+    :git => "https://github.com/get-translated/ios-sdk.git",
     :tag => "#{spec.version}"
   }
   

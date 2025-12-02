@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  GetTranslatedSample
+  
+  English localization strings for the GetTranslated SDK sample app.
+*/
+
+// MARK: - App Title
+"app.title" = "GetTranslated SDK Sample";
+
+// MARK: - SDK Status
+"sdk.status.title" = "SDK Status";
+"sdk.status.initializing" = "Initializing…";
+"sdk.status.initialized" = "SDK Initialized Successfully";
+"sdk.status.failed" = "SDK Initialization Failed";
+"sdk.status.failed.api_key" = "Failed: API key not configured";
+
+// MARK: - User Management
+"user.management.title" = "User Management";
+"user.management.user_id.placeholder" = "User ID";
+"user.management.login" = "Login";
+"user.management.logout" = "Logout";
+"user.management.current_user" = "Current User: %@";
+"user.management.anonymous" = "Anonymous";
+"user.management.enter_user_id" = "Please enter a user ID";
+"user.management.logging_in" = "Logging in user: %@";
+"user.management.logging_out" = "Logging out user";
+"user.management.login_success" = "✓ User logged in successfully: %@";
+"user.management.logout_success" = "✓ User logged out successfully";
+"user.management.login_failed" = "✗ Login re-initialization failed";
+"user.management.logout_failed" = "✗ Logout re-initialization failed";
+
+// MARK: - Language Management
+"language.management.title" = "Language Management";
+"language.management.supported_languages.loading" = "Supported Languages: Loading…";
+"language.management.supported_languages.none" = "Available Languages: None loaded";
+"language.management.supported_languages.format" = "Available Languages (%d):\n%@";
+"language.management.language_code.placeholder" = "Language Code (e.g., es, fr, de)";
+"language.management.set_language" = "Set Language";
+"language.management.current_language" = "Current Language: %@";
+"language.management.current_language.default" = "Current Language: en";
+"language.management.enter_language_code" = "Please enter a language code";
+"language.management.setting_language" = "Setting language to: %@";
+"language.management.language_set_success" = "Language set successfully: %@";
+"language.management.languages_loaded" = "Languages loaded: %d";
+"language.management.languages_refreshed" = "Languages refreshed: %d languages";
+"language.management.no_languages_warning" = "WARNING: No languages loaded from server";
+
+// MARK: - Translation Testing
+"translation.testing.title" = "Translation Testing";
+"translation.testing.input.placeholder" = "Text to translate";
+"translation.testing.translate" = "Translate";
+"translation.testing.result" = "Result:";
+"translation.testing.no_translation" = "No translation yet";
+"translation.testing.translating" = "Translating…";
+"translation.testing.enter_text" = "Please enter text to translate";
+"translation.testing.not_initialized" = "SDK not initialized yet. Please wait for initialization to complete.";
+"translation.testing.translating_text" = "Translating text: %@";
+"translation.testing.translation_received" = "✓ Translation received: %@";
+"translation.testing.translation_failed" = "Translation failed: %@";
+"translation.testing.translation_error" = "✗ Translation error: %@";
+"translation.testing.error.not_initialized" = "ERROR: %@";
+"translation.testing.error.init_not_complete" = "  → SDK initialization may not have completed yet";
+"translation.testing.error.wait_for_init" = "  → Wait for 'SDK Initialized Successfully' message";
+"translation.testing.error.permission_denied" = "  → Permission denied - check API key permissions";
+"translation.testing.error.unauthorized" = "  → Unauthorized - invalid API key";
+"translation.testing.error.server_error" = "  → Server error - check API key and permissions";
+
+// MARK: - Plural Testing
+"plural.testing.title" = "Plural Testing";
+"plural.testing.description" = "Plural forms for different counts:";
+"plural.testing.count" = "Count: %d";
+"plural.testing.not_initialized" = "SDK not initialized yet";
+"plural.testing.no_items" = "No items";
+"plural.testing.one_item" = "1 item";
+"plural.testing.items" = "%d items";
+
+// MARK: - Log Output
+"log.output.title" = "Log Output";
+"log.output.clear" = "Clear Log";
+
+// MARK: - Exit
+"button.exit" = "Exit App";
+
+// MARK: - SDK Initialization
+"sdk.init.started" = "SDK Sample App Started";
+"sdk.init.initializing" = "Initializing GetTranslated SDK…";
+"sdk.init.success" = "✓ SDK initialized successfully";
+"sdk.init.failed" = "✗ SDK initialization failed";
+"sdk.init.error.code" = "  Error Code: %d";
+"sdk.init.error.message" = "  Error Message: %@";
+"sdk.init.error.invalid_key" = "  → Invalid API key. Check your API key in Info.plist";
+"sdk.init.error.permission_denied" = "  → Permission denied. API key lacks required permissions.";
+"sdk.init.error.check_permissions" = "  → Check API key permissions in your GetTranslated dashboard";
+"sdk.init.error.network" = "  → Network error. Check your internet connection.";
+"sdk.init.error.server" = "  → Server error. Please try again later.";
+"sdk.init.api_key" = "  Current API Key: %@";
+"sdk.init.api_key.not_set" = "NOT SET";
+"sdk.init.api_key.not_configured" = "API key not configured. Please set GetTranslatedAPIKey in Info.plist or GETTRANSLATED_API_KEY environment variable.";
+"sdk.init.custom_server" = "Using custom server: %@";
+"sdk.init.available_languages" = "  Available languages (%d):";
+"sdk.init.languages_list" = "  %@";
+
+// MARK: - Default Values
+"default.user_id" = "test_user_123";
+"default.language_code" = "es";
+"default.translation_input" = "Hello, World!";
+
